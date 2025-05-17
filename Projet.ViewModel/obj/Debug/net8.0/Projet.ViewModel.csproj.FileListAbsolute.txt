@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\bin\Debug\net8.0\Projet.ViewModel.deps.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\bin\Debug\net8.0\Projet.ViewModel.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\bin\Debug\net8.0\Projet.ViewModel.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Projet.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Projet.ViewModel.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Projet.ViewModel.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Projet.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Projet.ViewModel.sourcelink.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Projet.ViewModel.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\refint\Projet.ViewModel.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Projet.ViewModel.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\ref\Projet.ViewModel.dll

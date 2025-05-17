@@ -1,0 +1,40 @@
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\Project.Context.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\Project.Context.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\Project.Context.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\Project.Context.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\Project.Context.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\Project.Context.sourcelink.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\bin\Debug\net8.0\Project.Context.deps.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\bin\Debug\net8.0\Project.Context.runtimeconfig.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\bin\Debug\net8.0\Project.Context.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\bin\Debug\net8.0\Project.Context.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\bin\Debug\net8.0\Project.Entities.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\bin\Debug\net8.0\Project.Enums.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\bin\Debug\net8.0\Project.Entities.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\bin\Debug\net8.0\Project.Enums.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\Project..28A4937F.Up2Date
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\Project.Context.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\refint\Project.Context.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\Project.Context.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\Project.Context.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Context\obj\Debug\net8.0\ref\Project.Context.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\Project.Context.csproj.AssemblyReference.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\Project.Context.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\Project.Context.AssemblyInfoInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\Project.Context.AssemblyInfo.cs
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\Project.Context.csproj.CoreCompileInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\Project.Context.sourcelink.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\Project.Context.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\refint\Project.Context.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\Project.Context.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\bin\Debug\net8.0\Project.Context.deps.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\bin\Debug\net8.0\Project.Context.runtimeconfig.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\bin\Debug\net8.0\Project.Context.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\bin\Debug\net8.0\Project.Context.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\bin\Debug\net8.0\Project.Entities.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\bin\Debug\net8.0\Project.Enums.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\bin\Debug\net8.0\Project.Entities.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\bin\Debug\net8.0\Project.Enums.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\Project..28A4937F.Up2Date
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\Project.Context.genruntimeconfig.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Context\obj\Debug\net8.0\ref\Project.Context.dll

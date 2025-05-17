@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Project.BLL.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Project.BLL.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project.BLL.Contracts.dll": {}
+        }
+      },
+      "Project.DAL.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Project.DAL.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Project.DAL.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Project.BLL.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Projet.BLL.Contracts/Project.BLL.Contracts.csproj",
+      "msbuildProject": "../Projet.BLL.Contracts/Project.BLL.Contracts.csproj"
+    },
+    "Project.DAL.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../Projet.DAL.Contract/Project.DAL.Contracts.csproj",
+      "msbuildProject": "../Projet.DAL.Contract/Project.DAL.Contracts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Project.BLL.Contracts >= 1.0.0",
+      "Project.DAL.Contracts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Majid Kouki\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.BLL\\Project.BLL.csproj",
+      "projectName": "Project.BLL",
+      "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.BLL\\Project.BLL.csproj",
+      "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.BLL\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj"
+            },
+            "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.DAL.Contract\\Project.DAL.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.DAL.Contract\\Project.DAL.Contracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\bin\Debug\net8.0\Projet.BLL.Contracts.deps.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\bin\Debug\net8.0\Projet.BLL.Contracts.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\bin\Debug\net8.0\Projet.BLL.Contracts.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\obj\Debug\net8.0\Projet.BLL.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\obj\Debug\net8.0\Projet.BLL.Contracts.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\obj\Debug\net8.0\Projet.BLL.Contracts.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\obj\Debug\net8.0\Projet.BLL.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\obj\Debug\net8.0\Projet.BLL.Contracts.sourcelink.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\obj\Debug\net8.0\Projet.BLL.Contracts.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\obj\Debug\net8.0\refint\Projet.BLL.Contracts.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\obj\Debug\net8.0\Projet.BLL.Contracts.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.BLL.Contracts\obj\Debug\net8.0\ref\Projet.BLL.Contracts.dll

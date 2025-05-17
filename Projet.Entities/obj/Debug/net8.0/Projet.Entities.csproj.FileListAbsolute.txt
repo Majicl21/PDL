@@ -1,0 +1,16 @@
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\bin\Debug\net8.0\Projet.Entities.deps.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\bin\Debug\net8.0\Projet.Entities.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\bin\Debug\net8.0\Projet.Entities.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\bin\Debug\net8.0\Projet.Enums.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\bin\Debug\net8.0\Projet.Enums.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\Projet.Entities.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\Projet.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\Projet.Entities.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\Projet.Entities.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\Projet.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\Projet.Entities.sourcelink.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\Projet.E.2FFF0D52.Up2Date
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\Projet.Entities.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\refint\Projet.Entities.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\Projet.Entities.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Entities\obj\Debug\net8.0\ref\Projet.Entities.dll

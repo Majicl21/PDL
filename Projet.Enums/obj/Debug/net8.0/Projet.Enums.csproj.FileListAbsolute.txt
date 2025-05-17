@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\bin\Debug\net8.0\Projet.Enums.deps.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\bin\Debug\net8.0\Projet.Enums.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\bin\Debug\net8.0\Projet.Enums.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\obj\Debug\net8.0\Projet.Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\obj\Debug\net8.0\Projet.Enums.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\obj\Debug\net8.0\Projet.Enums.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\obj\Debug\net8.0\Projet.Enums.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\obj\Debug\net8.0\Projet.Enums.sourcelink.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\obj\Debug\net8.0\Projet.Enums.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\obj\Debug\net8.0\refint\Projet.Enums.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\obj\Debug\net8.0\Projet.Enums.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.Enums\obj\Debug\net8.0\ref\Projet.Enums.dll

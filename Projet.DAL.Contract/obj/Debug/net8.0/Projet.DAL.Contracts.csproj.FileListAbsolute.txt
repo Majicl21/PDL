@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\bin\Debug\net8.0\Projet.DAL.Contracts.deps.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\bin\Debug\net8.0\Projet.DAL.Contracts.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\bin\Debug\net8.0\Projet.DAL.Contracts.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Projet.DAL.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Projet.DAL.Contracts.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Projet.DAL.Contracts.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Projet.DAL.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Projet.DAL.Contracts.sourcelink.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Projet.DAL.Contracts.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\refint\Projet.DAL.Contracts.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Projet.DAL.Contracts.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\ref\Projet.DAL.Contracts.dll

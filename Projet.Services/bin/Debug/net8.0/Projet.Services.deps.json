@@ -1,0 +1,100 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Projet.Services/1.0.0": {
+        "dependencies": {
+          "Projet.BLL": "1.0.0",
+          "Projet.BLL.Contracts": "1.0.0",
+          "Projet.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Projet.Services.dll": {}
+        }
+      },
+      "Projet.BLL/1.0.0": {
+        "dependencies": {
+          "Projet.BLL.Contracts": "1.0.0",
+          "Projet.DAL.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Projet.BLL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Projet.BLL.Contracts/1.0.0": {
+        "runtime": {
+          "Projet.BLL.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Projet.DAL.Contracts/1.0.0": {
+        "runtime": {
+          "Projet.DAL.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Projet.Entities/1.0.0": {
+        "dependencies": {
+          "Projet.Enums": "1.0.0"
+        },
+        "runtime": {
+          "Projet.Entities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Projet.Enums/1.0.0": {
+        "runtime": {
+          "Projet.Enums.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Projet.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Projet.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Projet.BLL.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Projet.DAL.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Projet.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Projet.Enums/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
