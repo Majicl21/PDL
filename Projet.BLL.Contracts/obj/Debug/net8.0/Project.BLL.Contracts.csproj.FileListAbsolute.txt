@@ -34,3 +34,15 @@ C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.BLL.Contracts\obj\Debug\
 C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\refint\Project.BLL.Contracts.dll
 C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\Project.BLL.Contracts.pdb
 C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\ref\Project.BLL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\bin\Debug\net8.0\Project.BLL.Contracts.deps.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\bin\Debug\net8.0\Project.BLL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\bin\Debug\net8.0\Project.BLL.Contracts.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\Project.BLL.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\Project.BLL.Contracts.AssemblyInfoInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\Project.BLL.Contracts.AssemblyInfo.cs
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\Project.BLL.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\Project.BLL.Contracts.sourcelink.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\Project.BLL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\refint\Project.BLL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\Project.BLL.Contracts.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\obj\Debug\net8.0\ref\Project.BLL.Contracts.dll

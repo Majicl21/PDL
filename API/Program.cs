@@ -52,13 +52,33 @@ builder.Services.AddAuthentication(options =>
 
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+// Register DataContext
 builder.Services.AddScoped<DataContext>();
 
-builder.Services.AddScoped<IUtilisateurService, UtilisateurService>();
-builder.Services.AddScoped<IGenericBLL<Utilisateur>, GenericBLL<Utilisateur>>();
+// Register Repositories
 builder.Services.AddScoped<IRepository<Utilisateur>, UtilisateurRepository>();
+builder.Services.AddScoped<IRepository<Project.Entities.Project>, ProjectRepository>();
+builder.Services.AddScoped<IRepository<Notification>, NotificationRepository>();
+builder.Services.AddScoped<IRepository<Timesheet>, TimesheetRepository>();
+builder.Services.AddScoped<IRepository<UserProject>, UserProjectRepository>();
 
+// Register Unit of Work
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+// Register BLL Services
+builder.Services.AddScoped<IGenericBLL<Utilisateur>, GenericBLL<Utilisateur>>();
+builder.Services.AddScoped<IGenericBLL<Project.Entities.Project>, GenericBLL<Project.Entities.Project>>();
+builder.Services.AddScoped<IGenericBLL<Notification>, GenericBLL<Notification>>();
+builder.Services.AddScoped<IGenericBLL<Timesheet>, GenericBLL<Timesheet>>();
+builder.Services.AddScoped<IGenericBLL<UserProject>, GenericBLL<UserProject>>();
+
+// Register Application Services
+builder.Services.AddScoped<IUtilisateurService, UtilisateurService>();
+builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
+builder.Services.AddScoped<ITimesheetService, TimesheetService>();
+builder.Services.AddScoped<IUserProjectService, UserProjectService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -76,7 +96,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication(); // Add this before Authorization
+app.UseAuthentication(); 
 
 app.UseAuthorization();
 

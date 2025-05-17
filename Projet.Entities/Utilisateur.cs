@@ -1,10 +1,19 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Project.Enums;
+using System.Collections.Generic;
 
 namespace Project.Entities
 {
     public class Utilisateur
     {
+        public Utilisateur()
+        {
+            UserProjects = new List<UserProject>();
+            Timesheets = new List<Timesheet>();
+            Notifications = new List<Notification>();
+            CreatedProjects = new List<Project>();
+        }
+
         [Key]  // Marks the property as the primary key
         public int Id { get; set; }
 
@@ -28,9 +37,11 @@ namespace Project.Entities
         [Required(ErrorMessage = "Le rôle est obligatoire.")]
         public Role Role { get; set; }
 
-        // Navigation properties (one-to-many relationships)
-        //public virtual List<Projet> Projets { get; set; }
-        //public virtual List<Tache> Taches { get; set; }
+        // Navigation properties
+        public virtual ICollection<UserProject> UserProjects { get; set; }
+        public virtual ICollection<Timesheet> Timesheets { get; set; }
+        public virtual ICollection<Notification> Notifications { get; set; }
+        public virtual ICollection<Project> CreatedProjects { get; set; }
     }
 }
 

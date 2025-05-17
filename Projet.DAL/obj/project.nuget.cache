@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YdGbdxpZNF8=",
+  "dgSpecHash": "RQuttjgvwPw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.DAL\\Project.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL\\Project.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Majid Kouki\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
     "C:\\Users\\Majid Kouki\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0\\microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",

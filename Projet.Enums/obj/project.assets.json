@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.Enums\\Project.Enums.csproj",
+      "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Enums\\Project.Enums.csproj",
       "projectName": "Project.Enums",
-      "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.Enums\\Project.Enums.csproj",
+      "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Enums\\Project.Enums.csproj",
       "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backend\\Projet.Enums\\obj\\",
+      "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Enums\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

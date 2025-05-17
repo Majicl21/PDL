@@ -22,95 +22,126 @@ namespace API.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Project.Entities.Projet", b =>
+            modelBuilder.Entity("Project.Entities.Notification", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("NotificationID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("NotificationID"));
 
-                    b.Property<int?>("ChefDeProjetId")
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
+
+                    b.HasKey("NotificationID");
+
+                    b.HasIndex("UserID");
+
+                    b.ToTable("Notifications");
+                });
+
+            modelBuilder.Entity("Project.Entities.Project", b =>
+                {
+                    b.Property<int>("ProjectID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProjectID"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("CreatedBy")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nom")
+                    b.Property<string>("ProjectName")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.HasKey("Id");
+                    b.HasKey("ProjectID");
 
-                    b.HasIndex("ChefDeProjetId");
+                    b.HasIndex("CreatedBy");
 
-                    b.ToTable("Projets");
+                    b.HasIndex("ProjectName");
+
+                    b.ToTable("Projects");
                 });
 
-            modelBuilder.Entity("Project.Entities.Sprint", b =>
+            modelBuilder.Entity("Project.Entities.Timesheet", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("TimesheetID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TimesheetID"));
 
-                    b.Property<DateTime>("DateDebut")
-                        .HasColumnType("datetime2");
+                    b.Property<bool>("ApprovedByManager")
+                        .HasColumnType("bit");
 
-                    b.Property<DateTime>("DateFin")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("Nom")
+                    b.Property<string>("Comment")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ProjetId")
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<double>("HoursWorked")
+                        .HasColumnType("float");
+
+                    b.Property<int>("ProjectID")
                         .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.Property<int>("UserID")
+                        .HasColumnType("int");
 
-                    b.HasIndex("ProjetId");
+                    b.HasKey("TimesheetID");
 
-                    b.ToTable("Sprints");
+                    b.HasIndex("ProjectID");
+
+                    b.HasIndex("UserID", "ProjectID", "Date");
+
+                    b.ToTable("Timesheets");
                 });
 
-            modelBuilder.Entity("Project.Entities.Tache", b =>
+            modelBuilder.Entity("Project.Entities.UserProject", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("UserProjectID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserProjectID"));
 
-                    b.Property<string>("Description")
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                    b.Property<DateTime>("AssignedAt")
+                        .HasColumnType("datetime2");
 
-                    b.Property<int?>("EmployeId")
+                    b.Property<int>("ProjectID")
                         .HasColumnType("int");
 
-                    b.Property<int>("Etat")
+                    b.Property<int>("UserID")
                         .HasColumnType("int");
 
-                    b.Property<string>("Nom")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                    b.HasKey("UserProjectID");
 
-                    b.Property<int?>("SprintId")
-                        .HasColumnType("int");
+                    b.HasIndex("ProjectID");
 
-                    b.HasKey("Id");
+                    b.HasIndex("UserID");
 
-                    b.HasIndex("EmployeId");
-
-                    b.HasIndex("SprintId");
-
-                    b.ToTable("Taches");
+                    b.ToTable("UserProjects");
                 });
 
             modelBuilder.Entity("Project.Entities.Utilisateur", b =>
@@ -146,40 +177,88 @@ namespace API.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Email")
+                        .IsUnique();
+
                     b.ToTable("Utilisateurs");
                 });
 
-            modelBuilder.Entity("Project.Entities.Projet", b =>
+            modelBuilder.Entity("Project.Entities.Notification", b =>
                 {
-                    b.HasOne("Project.Entities.Utilisateur", "ChefDeProjet")
-                        .WithMany()
-                        .HasForeignKey("ChefDeProjetId");
+                    b.HasOne("Project.Entities.Utilisateur", "User")
+                        .WithMany("Notifications")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("ChefDeProjet");
+                    b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Project.Entities.Sprint", b =>
+            modelBuilder.Entity("Project.Entities.Project", b =>
                 {
-                    b.HasOne("Project.Entities.Projet", "Projet")
-                        .WithMany()
-                        .HasForeignKey("ProjetId");
+                    b.HasOne("Project.Entities.Utilisateur", "User")
+                        .WithMany("CreatedProjects")
+                        .HasForeignKey("CreatedBy")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
-                    b.Navigation("Projet");
+                    b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Project.Entities.Tache", b =>
+            modelBuilder.Entity("Project.Entities.Timesheet", b =>
                 {
-                    b.HasOne("Project.Entities.Utilisateur", "Employe")
-                        .WithMany()
-                        .HasForeignKey("EmployeId");
+                    b.HasOne("Project.Entities.Project", "Project")
+                        .WithMany("Timesheets")
+                        .HasForeignKey("ProjectID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
-                    b.HasOne("Project.Entities.Sprint", "Sprint")
-                        .WithMany()
-                        .HasForeignKey("SprintId");
+                    b.HasOne("Project.Entities.Utilisateur", "User")
+                        .WithMany("Timesheets")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
 
-                    b.Navigation("Employe");
+                    b.Navigation("Project");
 
-                    b.Navigation("Sprint");
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Project.Entities.UserProject", b =>
+                {
+                    b.HasOne("Project.Entities.Project", "Project")
+                        .WithMany("UserProjects")
+                        .HasForeignKey("ProjectID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("Project.Entities.Utilisateur", "User")
+                        .WithMany("UserProjects")
+                        .HasForeignKey("UserID")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Project");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Project.Entities.Project", b =>
+                {
+                    b.Navigation("Timesheets");
+
+                    b.Navigation("UserProjects");
+                });
+
+            modelBuilder.Entity("Project.Entities.Utilisateur", b =>
+                {
+                    b.Navigation("CreatedProjects");
+
+                    b.Navigation("Notifications");
+
+                    b.Navigation("Timesheets");
+
+                    b.Navigation("UserProjects");
                 });
 #pragma warning restore 612, 618
         }

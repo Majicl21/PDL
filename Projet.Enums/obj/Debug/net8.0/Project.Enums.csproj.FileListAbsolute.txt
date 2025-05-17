@@ -22,3 +22,15 @@ C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Enums\obj\Debug\net8.0\P
 C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Enums\obj\Debug\net8.0\refint\Project.Enums.dll
 C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Enums\obj\Debug\net8.0\Project.Enums.pdb
 C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.Enums\obj\Debug\net8.0\ref\Project.Enums.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\bin\Debug\net8.0\Project.Enums.deps.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\bin\Debug\net8.0\Project.Enums.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\bin\Debug\net8.0\Project.Enums.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\obj\Debug\net8.0\Project.Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\obj\Debug\net8.0\Project.Enums.AssemblyInfoInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\obj\Debug\net8.0\Project.Enums.AssemblyInfo.cs
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\obj\Debug\net8.0\Project.Enums.csproj.CoreCompileInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\obj\Debug\net8.0\Project.Enums.sourcelink.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\obj\Debug\net8.0\Project.Enums.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\obj\Debug\net8.0\refint\Project.Enums.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\obj\Debug\net8.0\Project.Enums.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Enums\obj\Debug\net8.0\ref\Project.Enums.dll
