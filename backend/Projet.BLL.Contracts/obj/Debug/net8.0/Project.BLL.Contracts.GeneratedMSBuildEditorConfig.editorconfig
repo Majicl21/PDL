@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project.BLL.Contracts
-build_property.ProjectDir = C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.BLL.Contracts\
+build_property.ProjectDir = /home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

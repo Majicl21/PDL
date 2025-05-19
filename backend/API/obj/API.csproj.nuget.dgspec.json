@@ -1,55 +1,48 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\API\\API.csproj": {}
+    "/home/yesserrahal/Desktop/PDL/backend/API/API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\API\\API.csproj": {
+    "/home/yesserrahal/Desktop/PDL/backend/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\API\\API.csproj",
+        "projectUniqueName": "/home/yesserrahal/Desktop/PDL/backend/API/API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\API\\obj\\",
+        "projectPath": "/home/yesserrahal/Desktop/PDL/backend/API/API.csproj",
+        "packagesPath": "/home/yesserrahal/.nuget/packages/",
+        "outputPath": "/home/yesserrahal/Desktop/PDL/backend/API/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/yesserrahal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/Project.BLL.Contracts.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/Project.BLL.Contracts.csproj"
               },
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL\\Project.BLL.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL\\Project.BLL.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL/Project.BLL.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL/Project.BLL.csproj"
               },
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Context\\Project.Context.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Context\\Project.Context.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.Context/Project.Context.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Context/Project.Context.csproj"
               },
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL\\Project.DAL.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL\\Project.DAL.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL/Project.DAL.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL/Project.DAL.csproj"
               },
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Entities\\Project.Entities.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Entities\\Project.Entities.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.Entities/Project.Entities.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Entities/Project.Entities.csproj"
               },
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Services\\Project.Services.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Services\\Project.Services.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.Services/Project.Services.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Services/Project.Services.csproj"
               }
             }
           }
@@ -58,11 +51,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -72,6 +60,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -119,33 +111,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj": {
+    "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/Project.BLL.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj",
+        "projectUniqueName": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/Project.BLL.Contracts.csproj",
         "projectName": "Project.BLL.Contracts",
-        "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL.Contracts\\obj\\",
+        "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/Project.BLL.Contracts.csproj",
+        "packagesPath": "/home/yesserrahal/.nuget/packages/",
+        "outputPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/yesserrahal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -158,11 +143,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -184,44 +164,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL\\Project.BLL.csproj": {
+    "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL/Project.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL\\Project.BLL.csproj",
+        "projectUniqueName": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL/Project.BLL.csproj",
         "projectName": "Project.BLL",
-        "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL\\Project.BLL.csproj",
-        "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL\\obj\\",
+        "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL/Project.BLL.csproj",
+        "packagesPath": "/home/yesserrahal/.nuget/packages/",
+        "outputPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/yesserrahal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/Project.BLL.Contracts.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/Project.BLL.Contracts.csproj"
               },
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL.Contract\\Project.DAL.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL.Contract\\Project.DAL.Contracts.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL.Contract/Project.DAL.Contracts.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL.Contract/Project.DAL.Contracts.csproj"
               }
             }
           }
@@ -230,11 +203,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -256,41 +224,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Context\\Project.Context.csproj": {
+    "/home/yesserrahal/Desktop/PDL/backend/Projet.Context/Project.Context.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Context\\Project.Context.csproj",
+        "projectUniqueName": "/home/yesserrahal/Desktop/PDL/backend/Projet.Context/Project.Context.csproj",
         "projectName": "Project.Context",
-        "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Context\\Project.Context.csproj",
-        "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Context\\obj\\",
+        "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Context/Project.Context.csproj",
+        "packagesPath": "/home/yesserrahal/.nuget/packages/",
+        "outputPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Context/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/yesserrahal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Entities\\Project.Entities.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Entities\\Project.Entities.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.Entities/Project.Entities.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Entities/Project.Entities.csproj"
               }
             }
           }
@@ -299,11 +260,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -337,33 +293,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL.Contract\\Project.DAL.Contracts.csproj": {
+    "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL.Contract/Project.DAL.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL.Contract\\Project.DAL.Contracts.csproj",
+        "projectUniqueName": "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL.Contract/Project.DAL.Contracts.csproj",
         "projectName": "Project.DAL.Contracts",
-        "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL.Contract\\Project.DAL.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL.Contract\\obj\\",
+        "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL.Contract/Project.DAL.Contracts.csproj",
+        "packagesPath": "/home/yesserrahal/.nuget/packages/",
+        "outputPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL.Contract/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/yesserrahal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -376,11 +325,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -402,44 +346,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL\\Project.DAL.csproj": {
+    "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL/Project.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL\\Project.DAL.csproj",
+        "projectUniqueName": "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL/Project.DAL.csproj",
         "projectName": "Project.DAL",
-        "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL\\Project.DAL.csproj",
-        "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL\\obj\\",
+        "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL/Project.DAL.csproj",
+        "packagesPath": "/home/yesserrahal/.nuget/packages/",
+        "outputPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/yesserrahal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Context\\Project.Context.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Context\\Project.Context.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.Context/Project.Context.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Context/Project.Context.csproj"
               },
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL.Contract\\Project.DAL.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL.Contract\\Project.DAL.Contracts.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL.Contract/Project.DAL.Contracts.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.DAL.Contract/Project.DAL.Contracts.csproj"
               }
             }
           }
@@ -448,11 +385,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -474,41 +406,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Entities\\Project.Entities.csproj": {
+    "/home/yesserrahal/Desktop/PDL/backend/Projet.Entities/Project.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Entities\\Project.Entities.csproj",
+        "projectUniqueName": "/home/yesserrahal/Desktop/PDL/backend/Projet.Entities/Project.Entities.csproj",
         "projectName": "Project.Entities",
-        "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Entities\\Project.Entities.csproj",
-        "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Entities\\obj\\",
+        "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Entities/Project.Entities.csproj",
+        "packagesPath": "/home/yesserrahal/.nuget/packages/",
+        "outputPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Entities/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/yesserrahal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Enums\\Project.Enums.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Enums\\Project.Enums.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.Enums/Project.Enums.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Enums/Project.Enums.csproj"
               }
             }
           }
@@ -517,11 +442,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -543,33 +463,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Enums\\Project.Enums.csproj": {
+    "/home/yesserrahal/Desktop/PDL/backend/Projet.Enums/Project.Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Enums\\Project.Enums.csproj",
+        "projectUniqueName": "/home/yesserrahal/Desktop/PDL/backend/Projet.Enums/Project.Enums.csproj",
         "projectName": "Project.Enums",
-        "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Enums\\Project.Enums.csproj",
-        "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Enums\\obj\\",
+        "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Enums/Project.Enums.csproj",
+        "packagesPath": "/home/yesserrahal/.nuget/packages/",
+        "outputPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Enums/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/yesserrahal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -582,11 +495,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -608,47 +516,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Services\\Project.Services.csproj": {
+    "/home/yesserrahal/Desktop/PDL/backend/Projet.Services/Project.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Services\\Project.Services.csproj",
+        "projectUniqueName": "/home/yesserrahal/Desktop/PDL/backend/Projet.Services/Project.Services.csproj",
         "projectName": "Project.Services",
-        "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Services\\Project.Services.csproj",
-        "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Services\\obj\\",
+        "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Services/Project.Services.csproj",
+        "packagesPath": "/home/yesserrahal/.nuget/packages/",
+        "outputPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Services/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/yesserrahal/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL.Contracts\\Project.BLL.Contracts.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/Project.BLL.Contracts.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL.Contracts/Project.BLL.Contracts.csproj"
               },
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL\\Project.BLL.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.BLL\\Project.BLL.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL/Project.BLL.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.BLL/Project.BLL.csproj"
               },
-              "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Entities\\Project.Entities.csproj": {
-                "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.Entities\\Project.Entities.csproj"
+              "/home/yesserrahal/Desktop/PDL/backend/Projet.Entities/Project.Entities.csproj": {
+                "projectPath": "/home/yesserrahal/Desktop/PDL/backend/Projet.Entities/Project.Entities.csproj"
               }
             }
           }
@@ -657,11 +558,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -675,6 +571,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             },
             "Portable.BouncyCastle": {
               "target": "Package",
@@ -701,7 +601,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

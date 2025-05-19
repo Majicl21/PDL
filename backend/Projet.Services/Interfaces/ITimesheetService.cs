@@ -1,4 +1,7 @@
 using Project.Entities;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Project.Services.Interfaces
 {
@@ -12,5 +15,9 @@ namespace Project.Services.Interfaces
         IEnumerable<Timesheet> GetUserTimesheets(int userId);
         IEnumerable<Timesheet> GetProjectTimesheets(int projectId);
         void ApproveTimesheet(int id);
+        Task<Utilisateur> GetCurrentUser();
+        Task<IEnumerable<Timesheet>> GetMyTimesheets();
+        Task<IEnumerable<Timesheet>> FindMyTimesheets(DateTime startDate, DateTime endDate);
+        Task<Timesheet> GetTimesheet(int id);
     }
 }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Project.Services
-build_property.ProjectDir = C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.Services\
+build_property.ProjectDir = /home/yesserrahal/Desktop/PDL/backend/Projet.Services/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
