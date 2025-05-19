@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Project.Entities;
 using Project.Services.Interfaces;
@@ -6,7 +7,8 @@ namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TimesheetController : Controller
+    [Authorize]
+    public class TimesheetController : ControllerBase
     {
         private readonly ITimesheetService _service;
 
@@ -131,6 +133,50 @@ namespace API.Controllers
 
             _service.DeleteTimesheet(id);
             return NoContent();
+        }
+
+        // GET: api/Timesheet/current-user
+        [HttpGet("current-user")]
+        public async Task<ActionResult<Utilisateur>> CurrentUser()
+        {
+            var user = await _service.GetCurrentUser();
+            if (user == null)
+                return Unauthorized();
+
+            return Ok(user);
+        }
+
+        // GET: api/Timesheet/my-timesheets
+        [HttpGet("my-timesheets")]
+        public async Task<ActionResult<IEnumerable<Timesheet>>> GetMyTimesheets()
+        {
+            var timesheets = await _service.GetMyTimesheets();
+            if (!timesheets.Any())
+                return NotFound("No timesheets found for the current user.");
+
+            return Ok(timesheets);
+        }
+
+        // GET: api/Timesheet/find-my-timesheets
+        [HttpGet("find-my-timesheets")]
+        public async Task<ActionResult<IEnumerable<Timesheet>>> FindMyTimesheets([FromQuery] DateTime startDate, [FromQuery] DateTime endDate)
+        {
+            var timesheets = await _service.FindMyTimesheets(startDate, endDate);
+            if (!timesheets.Any())
+                return NotFound($"No timesheets found between {startDate:d} and {endDate:d}");
+
+            return Ok(timesheets);
+        }
+
+        // GET: api/Timesheet/timesheet/{id}
+        [HttpGet("timesheet/{id}")]
+        public async Task<ActionResult<Timesheet>> GetTimesheet(int id)
+        {
+            var timesheet = await _service.GetTimesheet(id);
+            if (timesheet == null)
+                return NotFound($"Timesheet with ID {id} not found or does not belong to the current user.");
+
+            return Ok(timesheet);
         }
     }
 }
