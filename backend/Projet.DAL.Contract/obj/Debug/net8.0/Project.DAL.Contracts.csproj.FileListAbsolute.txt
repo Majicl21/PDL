@@ -1,0 +1,60 @@
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.deps.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.sourcelink.json
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\refint\Project.DAL.Contracts.dll
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.pdb
+C:\Users\Administrator\source\repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\ref\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.deps.json
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.pdb
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.AssemblyInfoInputs.cache
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.AssemblyInfo.cs
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.sourcelink.json
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\refint\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.pdb
+C:\Users\Majid Kouki\Source\Repos\ProjectManagement\Projet.DAL.Contract\obj\Debug\net8.0\ref\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.deps.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.AssemblyInfoInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.AssemblyInfo.cs
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.sourcelink.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\obj\Debug\net8.0\refint\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backend\Projet.DAL.Contract\obj\Debug\net8.0\ref\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.deps.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.AssemblyInfoInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.AssemblyInfo.cs
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.sourcelink.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\obj\Debug\net8.0\refint\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.DAL.Contract\obj\Debug\net8.0\ref\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.deps.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\bin\Debug\net8.0\Project.DAL.Contracts.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.AssemblyInfoInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.AssemblyInfo.cs
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.sourcelink.json
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\obj\Debug\net8.0\refint\Project.DAL.Contracts.dll
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\obj\Debug\net8.0\Project.DAL.Contracts.pdb
+C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\backend\Projet.DAL.Contract\obj\Debug\net8.0\ref\Project.DAL.Contracts.dll
