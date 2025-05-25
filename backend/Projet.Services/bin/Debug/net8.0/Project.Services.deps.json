@@ -144,26 +144,17 @@
           "Project.DAL.Contracts": "1.0.0"
         },
         "runtime": {
-          "Project.BLL.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Project.BLL.dll": {}
         }
       },
       "Project.BLL.Contracts/1.0.0": {
         "runtime": {
-          "Project.BLL.Contracts.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Project.BLL.Contracts.dll": {}
         }
       },
       "Project.DAL.Contracts/1.0.0": {
         "runtime": {
-          "Project.DAL.Contracts.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Project.DAL.Contracts.dll": {}
         }
       },
       "Project.Entities/1.0.0": {
@@ -171,18 +162,12 @@
           "Project.Enums": "1.0.0"
         },
         "runtime": {
-          "Project.Entities.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Project.Entities.dll": {}
         }
       },
       "Project.Enums/1.0.0": {
         "runtime": {
-          "Project.Enums.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Project.Enums.dll": {}
         }
       }
     }

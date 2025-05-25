@@ -1,6 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System.Security.Claims;
 using Project.Entities;
 using Project.Services.Interfaces;
+using System.Diagnostics;
 
 namespace API.Controllers
 {
@@ -9,10 +13,12 @@ namespace API.Controllers
     public class UtilisateurController : Controller
     {
         private readonly IUtilisateurService _service;
+        private readonly ILogger<UtilisateurController> _logger;
 
-        public UtilisateurController(IUtilisateurService service)
+        public UtilisateurController(IUtilisateurService service, ILogger<UtilisateurController> logger)
         {
             _service = service;
+            _logger = logger;
         }
 
         // GET: api/User/GetUsers
@@ -74,7 +80,7 @@ namespace API.Controllers
             utilisateur.Id = id; // Ensure the ID matches
             _service.UpdateUser(utilisateur);
 
-            return NoContent();
+            return Ok(utilisateur);
         }
 
         // DELETE: api/User/DeleteUser/{id}
@@ -103,6 +109,37 @@ namespace API.Controllers
                 return Ok(users);
             }
             return NotFound($"No users found matching the term '{term}'.");
+        }
+
+        // GET: api/Utilisateur/current-user
+        [HttpGet]
+        [Authorize]
+        [Route("current-user")]
+        public IActionResult GetCurrentUser()
+        {
+            _logger.LogInformation("GetCurrentUser endpoint called.");
+
+            // Follow the logic from the logout function: get email from claims
+            var emailClaim = User.FindFirst(ClaimTypes.Email) ?? User.FindFirst("email");
+            if (emailClaim == null)
+            {
+                _logger.LogWarning("Email not found in token claims.");
+                return Unauthorized("Email not found in token.");
+            }
+
+            var email = emailClaim.Value;
+            _logger.LogInformation("Extracted email from token: {Email}", email);
+
+            // Find user by email (since your JWT does not contain user ID, but does contain email)
+            var user = _service.GetUsers().FirstOrDefault(u => u.Email == email);
+            if (user == null)
+            {
+                _logger.LogWarning("User with email {Email} not found.", email);
+                return NotFound($"User with email {email} not found.");
+            }
+
+            _logger.LogInformation("Returning user: {Prenom} {Nom} ({Email})", user.Prenom, user.Nom, user.Email);
+            return Ok(user);
         }
     }
 }

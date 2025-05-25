@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I43oqyFnRaY=",
+  "dgSpecHash": "8+pXqv+dX4g0fCguC5J506xylsevoRKFAnVKM8mnLzi3BBPVoGhZDkG6KCBhi47kenpqSZBpgTkcyt0YnsJf4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.DAL.Contract\\Project.DAL.Contracts.csproj",
+  "projectFilePath": "/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.DAL.Contract/Project.DAL.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

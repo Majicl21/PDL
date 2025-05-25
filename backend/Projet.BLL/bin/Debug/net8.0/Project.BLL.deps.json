@@ -17,18 +17,12 @@
       },
       "Project.BLL.Contracts/1.0.0": {
         "runtime": {
-          "Project.BLL.Contracts.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Project.BLL.Contracts.dll": {}
         }
       },
       "Project.DAL.Contracts/1.0.0": {
         "runtime": {
-          "Project.DAL.Contracts.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Project.DAL.Contracts.dll": {}
         }
       }
     }

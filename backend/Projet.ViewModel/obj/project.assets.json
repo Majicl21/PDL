@@ -8,32 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Majid Kouki\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/yesserrahal/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.ViewModel\\Project.ViewModel.csproj",
+      "projectUniqueName": "/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/Project.ViewModel.csproj",
       "projectName": "Project.ViewModel",
-      "projectPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.ViewModel\\Project.ViewModel.csproj",
-      "packagesPath": "C:\\Users\\Majid Kouki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Majid Kouki\\OneDrive\\Bureau\\PDL\\Backup\\Backend\\Projet.ViewModel\\obj\\",
+      "projectPath": "/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/Project.ViewModel.csproj",
+      "packagesPath": "/home/yesserrahal/.nuget/packages/",
+      "outputPath": "/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Majid Kouki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/yesserrahal/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -46,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -72,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

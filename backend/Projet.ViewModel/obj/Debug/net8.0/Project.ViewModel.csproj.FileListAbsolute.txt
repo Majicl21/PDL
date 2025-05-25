@@ -1,24 +1,36 @@
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\bin\Debug\net8.0\Project.ViewModel.deps.json
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\bin\Debug\net8.0\Project.ViewModel.dll
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\bin\Debug\net8.0\Project.ViewModel.pdb
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.AssemblyInfoInputs.cache
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.AssemblyInfo.cs
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.sourcelink.json
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.dll
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\refint\Project.ViewModel.dll
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.pdb
-C:\Users\Administrator\source\repos\ProjectManagement\Projet.ViewModel\obj\Debug\net8.0\ref\Project.ViewModel.dll
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\bin\Debug\net8.0\Project.ViewModel.deps.json
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\bin\Debug\net8.0\Project.ViewModel.dll
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\bin\Debug\net8.0\Project.ViewModel.pdb
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.AssemblyInfoInputs.cache
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.AssemblyInfo.cs
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.csproj.CoreCompileInputs.cache
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.sourcelink.json
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.dll
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\obj\Debug\net8.0\refint\Project.ViewModel.dll
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\obj\Debug\net8.0\Project.ViewModel.pdb
-C:\Users\Majid Kouki\OneDrive\Bureau\PDL\Backup\Backend\Projet.ViewModel\obj\Debug\net8.0\ref\Project.ViewModel.dll
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/bin/Debug/net8.0/Project.ViewModel.deps.json
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/bin/Debug/net8.0/Project.ViewModel.dll
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/bin/Debug/net8.0/Project.ViewModel.pdb
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.AssemblyInfoInputs.cache
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.AssemblyInfo.cs
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.csproj.CoreCompileInputs.cache
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.sourcelink.json
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.dll
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/obj/Debug/net8.0/refint/Project.ViewModel.dll
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.pdb
+C:/Users/Administrator/source/repos/ProjectManagement/Projet.ViewModel/obj/Debug/net8.0/ref/Project.ViewModel.dll
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/bin/Debug/net8.0/Project.ViewModel.deps.json
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/bin/Debug/net8.0/Project.ViewModel.dll
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/bin/Debug/net8.0/Project.ViewModel.pdb
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.AssemblyInfoInputs.cache
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.AssemblyInfo.cs
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.csproj.CoreCompileInputs.cache
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.sourcelink.json
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.dll
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/obj/Debug/net8.0/refint/Project.ViewModel.dll
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.pdb
+C:/Users/Majid Kouki/OneDrive/Bureau/PDL/Backup/Backend/Projet.ViewModel/obj/Debug/net8.0/ref/Project.ViewModel.dll
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/bin/Debug/net8.0/Project.ViewModel.deps.json
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/bin/Debug/net8.0/Project.ViewModel.dll
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/bin/Debug/net8.0/Project.ViewModel.pdb
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.AssemblyInfoInputs.cache
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.AssemblyInfo.cs
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.csproj.CoreCompileInputs.cache
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.sourcelink.json
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.dll
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/obj/Debug/net8.0/refint/Project.ViewModel.dll
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/obj/Debug/net8.0/Project.ViewModel.pdb
+/home/yesserrahal/Desktop/timesheet/PDL/backend/Projet.ViewModel/obj/Debug/net8.0/ref/Project.ViewModel.dll

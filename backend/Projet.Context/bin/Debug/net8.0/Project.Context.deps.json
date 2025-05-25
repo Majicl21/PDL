@@ -634,18 +634,12 @@
           "Project.Enums": "1.0.0"
         },
         "runtime": {
-          "Project.Entities.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Project.Entities.dll": {}
         }
       },
       "Project.Enums/1.0.0": {
         "runtime": {
-          "Project.Enums.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Project.Enums.dll": {}
         }
       }
     }

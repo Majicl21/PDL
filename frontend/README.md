@@ -190,3 +190,39 @@ TailAdmin React.js Free Version is released under the MIT License.
 
 If you find this project helpful, please consider giving it a star on GitHub. Your support helps us continue developing
 and maintaining this template.
+
+# Explanation for 401 Unauthorized on /api/Utilisateur/current-user
+
+- The `401 Unauthorized` response means the backend did **not** receive a valid JWT token in the `Authorization` header.
+- The endpoint `/api/Utilisateur/current-user` is protected by `[Authorize]` and **requires** a Bearer token.
+
+## How to fix
+
+- You must include the JWT token in your request header:
+
+# How to use your JWT token with Postman
+
+1. **Open Postman** and create a new request.
+
+2. **Set the method and URL:**
+   - Method: `GET`
+   - URL: `http://localhost:5198/api/Utilisateur/current-user`
+
+3. **Add the Authorization header:**
+   - Go to the "Headers" tab.
+   - Add a new key: `Authorization`
+   - Value: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzQ4MTEwNTE2LCJleHAiOjE3NDgxMTIzMTYsImlhdCI6MTc0ODExMDUxNiwiaXNzIjoiQVBJIiwiYXVkIjoiVXRpbGlzYXRldXJzIn0.cfNWyWLcz3VDHPDJYvrFH--RvljuT0RTVsAhyB4EFoc`
+
+   *(Make sure there is a space between "Bearer" and the token!)*
+
+4. **Send the request.**
+
+5. **You should receive a JSON response with the current user info if the backend is configured correctly.**
+
+---
+
+**Example cURL (for reference):**
+```sh
+curl -X GET "http://localhost:5198/api/Utilisateur/current-user" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQGV4YW1wbGUuY29tIiwicm9sZSI6IkFkbWluIiwibmJmIjoxNzQ4MTEwNTE2LCJleHAiOjE3NDgxMTIzMTYsImlhdCI6MTc0ODExMDUxNiwiaXNzIjoiQVBJIiwiYXVkIjoiVXRpbGlzYXRldXJzIn0.cfNWyWLcz3VDHPDJYvrFH--RvljuT0RTVsAhyB4EFoc"
+```

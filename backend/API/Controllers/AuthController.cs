@@ -28,14 +28,31 @@ namespace API.Controllers
             public IActionResult Register([FromBody] Utilisateur user)
             {
                 user.MotDePasse = BCrypt.Net.BCrypt.HashPassword(user.MotDePasse);
-                // Save the user using your UtilisateurService
-                _utilisateurService.AddUser(user);
-                return Ok("User registered successfully!");
+                try
+                {
+                    _utilisateurService.AddUser(user);
+                    return Ok("User registered successfully!");
+                }
+                catch (Microsoft.EntityFrameworkCore.DbUpdateException ex)
+                {
+                    if (ex.InnerException != null && ex.InnerException.Message.Contains("IX_Utilisateurs_Email"))
+                    {
+                        return BadRequest("This email is already registered. Please use another email.");
+                    }
+                    return StatusCode(500, "An error occurred while registering the user.");
+                }
+                catch (Exception ex)
+                {
+                    return StatusCode(500, ex.Message);
+                }
             }
 
             [HttpPost("login")]
             public IActionResult Login([FromBody] LoginRequest model)
             {
+                if (string.IsNullOrEmpty(model.Email) || string.IsNullOrEmpty(model.Password))
+                    return BadRequest("Email and password are required.");
+
                 var user = _authService.Authenticate(model.Email, model.Password);
 
                 if (user == null)
@@ -65,8 +82,8 @@ namespace API.Controllers
 
         public class LoginRequest
         {
-            public string Email { get; set; }
-            public string Password { get; set; }
+            public string? Email { get; set; }
+            public string? Password { get; set; }
         }
     }
 
